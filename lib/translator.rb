@@ -28,7 +28,7 @@ def get_english_meaning(file_path, j_emoticon)
   # code goes here
   lib_hash = load_library(file_path)
   lib_hash["get_meaning"].each do |japanese, meaning|
-    if english == emoticon 
+    if japanese == j_emoticon 
       
   
 end
