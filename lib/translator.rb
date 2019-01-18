@@ -19,9 +19,7 @@ def get_japanese_emoticon(file_path, emoticon)
   meaning = ""
   lib_hash["get_emoticon"].each do |english, japanese|
     if english == emoticon 
-      japanese_emoticon = japanese 
-    end
-  end
+      return japanese
   
 end
 
