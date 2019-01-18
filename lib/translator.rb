@@ -15,6 +15,8 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   # code goes here
   lib_hash = load_library(file_path)
+  japanese_emoticon = ""
+  eng
   lib_hash["get_emoticon"].each do |english, japanese|
     if english == emoticon 
       japanese_emoticon = japanese 
